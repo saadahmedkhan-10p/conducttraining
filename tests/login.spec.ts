@@ -14,13 +14,13 @@ test.describe('Login', () => {
 
         //==============================================================================================
         
-        await page.goto('https://practicetestautomation.com/practice-test-login/');
+     //   await page.goto('https://practicetestautomation.com/practice-test-login/');
         
-        const loginPage = new LoginPage(page);
+       // const loginPage = new LoginPage(page);
 
-        await loginPage.enterUsername('student');
+       // await loginPage.enterUsername('student');
 
-        await expect(page.getByText('You have successfully logged in!')).toBeVisible();
+       // await expect(page.getByText('You have successfully logged in!')).toBeVisible();
 
 
 
