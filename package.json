@@ -2,7 +2,9 @@
   "name": "playwrighttrainingconduct",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "allure:generate": "allure generate allure-results --clean -o allure-report"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -10,6 +12,7 @@
   "devDependencies": {
     "@playwright/test": "^1.60.0",
     "@types/node": "^25.7.0",
+    "allure-commandline": "^2.42.1",
     "allure-playwright": "^3.10.0"
   }
 }
