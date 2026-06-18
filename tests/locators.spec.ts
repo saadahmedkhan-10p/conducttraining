@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 test.describe("Locators", () => {
-  test("should locate elements using different strategies", async ({
+  test("should locate elements using different sstrategies", async ({
     page,
   }) => {
     await page.goto("https://demo.playwright.dev/todomvc");
